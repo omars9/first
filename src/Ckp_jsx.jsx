@@ -1,31 +1,15 @@
 import React from 'react'
-import img from './test.jpg'
-
-const Ckp = () => {
+import FullName from './Component/FullName';
+import Address from './Component/Address';
+import ProfilePhoto from './Component/ProfilePhoto';
+const Ckp_jsx = () => {
   return (
     <div>
-        <div style={{border:"solid 1px black",maxWidth:"100vw"}}>
-
-    <h1 class="title red">Your name here</h1>
-   
-    <br />
-   
-    <img src="logo192.png" />
-   
-    <br />
-   
-    <img src={img} />
-        
+    <ProfilePhoto/>
+    <FullName/>
+    <Address/>
    </div>
-   
-   <video width="320" height="240" controls>
-   
-    <source src="myVideo.mp4" type="video/mp4" />
-   
-   </video>
-
-    </div>
   )
 }
 
-export default Ckp
+export default Ckp_jsx

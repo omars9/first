@@ -1,11 +1,14 @@
-
 import './App.css';
-import "../node_modules/bootstrap/dist/css/bootstrap.css"
-import Ckp from './Ckp_jsx';
+import FullName from './Component/FullName';
+import Address from './Component/Address';
+import ProfilePhoto from './Component/ProfilePhoto';
+import Ckp_jsx from './Ckp_jsx';
+
+
 function App() {
   return (
     <div className="App">
-      <Ckp/>
+   <Ckp_jsx />
     </div>
   );
 }
